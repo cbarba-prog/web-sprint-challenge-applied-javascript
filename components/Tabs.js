@@ -11,7 +11,6 @@ function Tabs(newTab){
 
 const newTopics = document.querySelector('.topics');
 
-//Needs an ALL tab
 
 axios.get('https://lambda-times-api.herokuapp.com/topics')
 .then(response => {
